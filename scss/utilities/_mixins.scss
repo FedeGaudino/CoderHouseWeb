@@ -1,0 +1,6 @@
+@import "./utilities/_variables.scss";
+    
+@mixin tableColor($bgColor, $fontColor){
+    color: $fontColor;
+    background-color: $bgColor;
+}

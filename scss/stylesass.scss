@@ -1,0 +1,44 @@
+@import "./utilities/_mixins.scss";
+@import "./utilities/_variables.scss";
+@import "./utilities/_functions.scss";    
+
+.tableStyle{
+    text-align: center;
+    margin: 0px auto;
+    font-weight: bold;
+    font-family: 'Cairo', sans-serif;
+    padding-bottom: 40px;
+}
+.tableLol{
+  @extend .tableStyle;
+  @include tableColor($lolColor, yellow);
+}
+.tableWow{
+    @extend .tableStyle;
+    @include tableColor($wowColor, orange);
+}
+.tableDota{
+    @extend .tableStyle;
+    @include tableColor($dotaColor, red);
+}
+.tableCsgo{
+    @extend .tableStyle;
+    @include tableColor($csgoColor, black);
+}
+
+.tableRows{
+    color: black;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+.center-content{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.center-content tr td{
+    padding: 24px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}

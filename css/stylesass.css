@@ -1,0 +1,36 @@
+.tableStyle, .tableLol, .tableWow, .tableDota, .tableCsgo {
+  text-align: center;
+  margin: 0px auto;
+  font-weight: bold;
+  font-family: 'Cairo', sans-serif;
+  padding-bottom: 40px; }
+
+.tableLol {
+  color: yellow;
+  background-color: #0b3579; }
+
+.tableWow {
+  color: green;
+  background-color: #0b3579; }
+
+.tableDota {
+  color: red;
+  background-color: #0b3579; }
+
+.tableCsgo {
+  color: black;
+  background-color: #0b3579; }
+
+.tableRows {
+  color: black;
+  font-size: 20px;
+  border: 2px solid black; }
+
+.center-content {
+  margin-left: auto;
+  margin-right: auto; }
+
+.center-content tr td {
+  padding: 24px;
+  border: 2px solid black;
+  border-collapse: collapse; }

@@ -1,0 +1,556 @@
+body{
+    background-image: linear-gradient(to bottom, rgb(1, 39, 56), rgb(2, 74, 110));
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+h1{
+    color: white;
+    font-size: 25px;
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+@keyframes fadeIn{
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+
+.homeFadeIn{
+    animation-duration: 3s;
+    animation-name: fadeIn;
+}
+
+#homeFadeIn{
+    animation-duration: 2s;
+    animation-name: fadeIn;
+} 
+
+h2{
+    color: white;
+    font-size: 20px;
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    margin: 0 0 0 0;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.lolStyling1{
+    background-image: linear-gradient(to bottom, rgb(38, 31, 109), rgb(10, 32, 56));
+    padding: 10 0 0 0;
+    margin: 1 0 0 0;
+}
+.lolStyling2{
+    border-bottom: solid black;
+    background-image: linear-gradient(to bottom, rgb(38, 31, 109), rgb(10, 32, 56));
+}
+
+h3{
+    color: white;
+    font-size: 25px;
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    margin: 40px auto;
+    font-weight: lighter;
+}
+
+h4{
+    text-align: center;
+    font-size: 20px;
+}
+
+h5{
+    font-size: 15px;
+}
+
+footer{
+    background-color: rgb(1, 48, 63);
+    padding: 0%;
+    margin: 0px;
+    width: 100%;
+    border-top: 2px solid black;
+}
+
+header{
+    background-image: linear-gradient(to top, rgb(38, 31, 109), rgb(10, 32, 56));
+    margin: 0%;
+    padding: 0%;
+    word-spacing: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+}
+
+header a:hover{
+    color: rgb(114, 95, 224);
+}
+
+a{
+    color: inherit;
+}
+
+        /* Home Open */
+
+#homeTitle{
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+
+.homeStyle{
+    color: rgb(21, 21, 98);
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Cairo', sans-serif;
+    font-size: 25px;
+    margin: auto;
+    padding: 300px auto 300px auto;
+    line-height: 80px;
+    animation-duration: 3s;
+    animation-name: fadeIn;
+}
+
+.homeGames li:hover{
+    color: rgb(114, 95, 224);
+    transform: scale(1.2);
+}
+
+#homeNav{
+    width: 120px;
+    height: 40px;
+    border-bottom: solid black 3px;
+}
+
+#homeNavBorder{
+    border-bottom: solid black 3px;
+}
+
+#cardStyle{
+    padding: 1%;
+}
+
+#cardStyleBot{
+    padding: 1%;
+}
+
+#listStyle{
+    list-style: none;
+}
+
+        /* Home Close */
+
+        /* Table Open */
+
+/* .tableStyle{
+    color: white;
+    text-align: center;
+    margin: 0px auto;
+    font-weight: bold;
+    font-family: 'Cairo', sans-serif;
+    padding-bottom: 40px;
+} 
+
+.tableStyle a:hover{
+    color: rgb(0, 85, 155);
+}
+
+.tableRows{
+    color: rgb(0, 85, 155);
+    font-size: 20px;
+}
+
+.centerTable{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+td{
+    padding: 10px;
+    border: 2px solid black;
+    border-collapse: collapse;
+} */
+
+        /* Table Close */
+
+        /* Header & Footer Open*/
+
+.headerStyle{
+    text-align: center;
+    color: black;
+    font-family: 'Cairo', sans-serif;
+}
+
+.footerStyle{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Monaco", monospace;
+}
+
+        /* Header & Footer Close */
+
+        /* Images Open */
+
+.logo{
+    width: 10%;
+    height: 10%;
+    min-height: 60px;
+    min-width: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo:hover{
+    transform: rotate(360deg);
+    transition: all 2s;
+}
+
+.gameLogo{
+    display: block;
+    margin: 20px auto 20px auto;
+    width: auto;
+    height: 120px;
+}
+
+.centerImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+        /* Images Close */
+
+        /* Form Open */
+
+form{
+    animation-duration: 3s;
+    animation-name: fadeIn;
+}
+
+.formStyle{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Cairo', sans-serif;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.formTextStyle{
+    margin: 10px 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.formTextStyle input{
+    margin-left: 7px;
+}
+
+.loginTitleStyle{
+    margin: 30px 10px;
+    font-size: 22px;
+    color: black;
+    height: 47px;
+}
+
+input[type=submit]{
+    padding: 14px;
+    border-radius: 10px;
+    background: green;
+    border: none;
+    color: white;
+    margin-bottom: 30px;
+}
+
+input[type=submit]:hover{
+    background: rgba(0, 128, 0, 0.5);
+    cursor: pointer;
+}
+
+input[type=reset]{
+    padding: 14px;
+    border-radius: 10px;
+    background: rgba(255, 0, 0, 0.609);
+    border: none;
+    color: white;
+    margin-bottom: 30px;
+}
+
+input[type=reset]:hover{
+    background: rgba(255, 0, 0, 0.281);
+    cursor: pointer;
+}
+
+input{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+}
+
+textarea{
+    margin-left: 7px;
+    padding: 4px 10px;
+    border-radius: 10px;
+    background:white;
+    border: none;
+    color: black;
+}
+
+select{
+    padding: 4px 4px;
+    border-radius: 10px;
+    background: white;
+    border: none;
+    color:black;
+}
+
+        /* Form Close */
+
+        /* Lines Open */
+
+.line{
+    border-bottom: 2px solid black;
+    display: block;
+    margin: 50px 600px;
+    animation-duration: 4s;
+    animation-name: fadeIn;
+}
+
+.line2{
+    border-bottom: 2px solid rgb(112, 110, 110);
+    display: block;
+    margin: 50px 600px;
+}
+
+        /* Lines Close */
+
+        /* Feedback Chat Open*/
+
+.feedbackChat{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(0, 201, 236);
+    height: 30px;
+    width: 120px;
+    padding: 4px 18px;
+    border-radius: 30px 30px 0 0;
+    border: solid black;
+    font-family: 'Cairo', sans-serif;
+    font-size: 15px;
+    text-align: right;
+    font-weight: bold;
+    background-image: url(../pics/mic.png);
+    background-repeat:no-repeat;
+    background-position: 8%;
+    margin: auto auto auto 5px;
+    background-size: 35px;
+    border-bottom: none;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.feedbackChat:hover{
+    background-color: green;
+}
+
+.feedbackChat:active{
+    background-color: green;
+    height: 180px;
+    background-image: url();
+    text-align: center; 
+}
+
+        /* Feedback Chat Close*/
+
+        /* Guides Open*/
+
+#flexBox{
+    background-color:rgb(47, 28, 71);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: justify;
+    font-family: 'Cairo', sans-serif;
+    color: whitesmoke;
+    padding: 0% 15% 0% 15%;
+    width: 75%;
+}
+
+.padding2{
+    padding: 2%;
+}
+
+.lineGrey{
+    margin: 50px 600px;    
+    border-bottom: solid grey;
+    display: block;
+}
+
+        /* Protection Icons Open */
+
+#overviewIcon{
+    background-image: url(../pics/wow/overview.jpg);
+}
+#abilitiesIcon{
+    background-image: url(../pics/wow/abilities.jpg);
+}
+#gearIcon{
+    background-image: url(../pics/wow/gear.jpg);
+}
+#talentsIcon{
+    background-image: url(../pics/wow/talents.jpg);
+}
+
+        /* Protection Icons Close */
+
+
+        /* Jungle Guide Open */
+
+.jungleCamps{
+    font-weight: bold;
+}
+
+.flexRow{
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rowImages{
+    display: inline;
+    padding: 0px;
+    height: 150px;
+    width: 20%;
+    object-fit: contain;
+}
+
+#flexRowImages{
+    display: flex;
+    margin: 0px;
+    position: relative;
+    top: 7px;
+    width: 100%;
+    word-wrap:normal;
+    white-space:nowrap;
+}
+
+.videoBy{
+    font-style: italic;
+    padding: 2%;
+    text-align: center;
+}
+
+.lolBody{
+    background-color: rgb(2, 67, 87);
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    min-height: 600vh;
+}
+
+.flexBoxContainer{
+    flex-direction: row;
+    display: flex;
+}
+
+.shortcuts{
+    position: sticky;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 5%;
+    width: 12%;
+    height: 100vh;
+    background-color: rgb(1, 15, 61);
+    border-right: solid black;
+    border-bottom: solid black;
+    top: 0%;
+    font-weight: bold;
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    color: blanchedalmond;
+    align-content: stretch;
+}
+
+.shortcuts a{
+    text-decoration: none;
+}
+
+.shortcuts a:hover{
+    color: rgb(1, 185, 176);
+}
+
+        /* Jungle Guide Close */
+
+        /* Guides Close */
+
+
+        /* Media Queries Open */
+
+@media only screen and (max-width: 360px){
+
+    .body{
+        background-image: linear-gradient(to bottom, rgb(22, 64, 83), rgb(5, 79, 116));
+        font-size: 18px;
+        min-height: 160vh;
+    }
+
+    .shortcuts{
+        width: 20%;
+        padding: 10px;
+    }
+
+    #flexBox{
+        padding: 0% 3% 0% 3%;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 360px){
+
+    .body{
+        background-image: linear-gradient(to bottom, rgb(22, 64, 83), rgb(5, 79, 116));
+        font-size: 18px;
+        min-height: 135vh;
+    }
+}
+
+@media only screen and (min-width: 425px){
+
+    .body{
+        background-image: linear-gradient(to bottom, rgb(48, 88, 107), rgb(100, 177, 216));
+        font-size: 18px;
+        min-height: 135vh;
+    }
+}
+
+@media only screen and (min-width: 768px){
+     
+    .body{
+        background-image: linear-gradient(to bottom, rgb(34, 77, 0), rgb(58, 115, 148));
+    }
+} 
+
+@media only screen and (min-width: 1024px){
+    
+    .body{
+        background-image: linear-gradient(to bottom, rgb(1, 39, 56), rgb(2, 74, 110));
+        min-height: 100vh;
+    }
+}
+
+        /* Media Queries Close */

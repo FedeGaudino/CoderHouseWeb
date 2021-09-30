@@ -1,0 +1,30 @@
+.gayCard {
+  border-radius: 50px;
+  background-color: red;
+}
+
+.tableStyle {
+  color: white;
+  text-align: center;
+  margin: 0px auto;
+  font-weight: bold;
+  font-family: 'Cairo', sans-serif;
+  padding-bottom: 40px;
+}
+
+.tableRows {
+  color: #00559b;
+  font-size: 20px;
+}
+
+.centerTable {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  padding: 10px;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+/*# sourceMappingURL=stylesass.css.map */
